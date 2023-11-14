@@ -1,0 +1,41 @@
+:root {
+    color: yellow;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+body {
+    background-image: url("space.jpeg");
+    background-repeat: repeat;
+}
+body, #info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    text-align: center;
+    font-size: 3em;
+}
+h2, h4 {
+    margin: 0.5em 0 0 0;
+    text-decoration: underline; 
+}
+
+h4 {
+    font-size: 2em;
+    
+}
+h2 {
+    font-size: 1.5em;
+
+}
+p {
+    margin: .25em;
+}
+#character-id {
+    background-color: black;
+    color: white;
+}
+#submit {
+    color: yellow;
+    background-color: black;
+}
